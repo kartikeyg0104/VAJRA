@@ -65,32 +65,35 @@ export const top10States = [
   { state: "Telangana", biometric: 156000, demographic: 98000, enrolment: 67000, total: 321000 },
 ];
 
-// Monthly Trends Data (24 months)
+// Monthly Trends Data (24 months) - Scaled to match total transactions
+// Showing Jan 2024 - Dec 2025, with patterns reflecting September surge
+// Target: Biometric 2,156,000 (44%), Demographic 1,617,000 (33%), Enrolment 1,127,000 (23%)
+// September surge: 2.7× on demographic transactions
 export const monthlyTrends = [
-  { month: "Jan 2024", biometric: 78000, demographic: 62000, enrolment: 45000 },
-  { month: "Feb 2024", biometric: 82000, demographic: 58000, enrolment: 43000 },
-  { month: "Mar 2024", biometric: 91000, demographic: 78000, enrolment: 52000 },
-  { month: "Apr 2024", biometric: 85000, demographic: 71000, enrolment: 48000 },
-  { month: "May 2024", biometric: 79000, demographic: 64000, enrolment: 44000 },
-  { month: "Jun 2024", biometric: 76000, demographic: 59000, enrolment: 41000 },
-  { month: "Jul 2024", biometric: 88000, demographic: 72000, enrolment: 49000 },
-  { month: "Aug 2024", biometric: 94000, demographic: 81000, enrolment: 53000 },
-  { month: "Sep 2024", biometric: 112000, demographic: 156000, enrolment: 78000 },
-  { month: "Oct 2024", biometric: 98000, demographic: 89000, enrolment: 56000 },
-  { month: "Nov 2024", biometric: 89000, demographic: 82000, enrolment: 51000 },
-  { month: "Dec 2024", biometric: 84000, demographic: 73000, enrolment: 46000 },
-  { month: "Jan 2025", biometric: 81000, demographic: 67000, enrolment: 47000 },
-  { month: "Feb 2025", biometric: 85000, demographic: 61000, enrolment: 45000 },
-  { month: "Mar 2025", biometric: 95000, demographic: 84000, enrolment: 54000 },
-  { month: "Apr 2025", biometric: 88000, demographic: 76000, enrolment: 50000 },
-  { month: "May 2025", biometric: 82000, demographic: 68000, enrolment: 46000 },
-  { month: "Jun 2025", biometric: 78000, demographic: 62000, enrolment: 43000 },
-  { month: "Jul 2025", biometric: 92000, demographic: 78000, enrolment: 51000 },
-  { month: "Aug 2025", biometric: 98000, demographic: 87000, enrolment: 56000 },
-  { month: "Sep 2025", biometric: 118000, demographic: 168000, enrolment: 82000 },
-  { month: "Oct 2025", biometric: 102000, demographic: 94000, enrolment: 58000 },
-  { month: "Nov 2025", biometric: 93000, demographic: 86000, enrolment: 53000 },
-  { month: "Dec 2025", biometric: 87000, demographic: 76000, enrolment: 48000 },
+  { month: "Jan 2024", biometric: 165000, demographic: 105000, enrolment: 87000 },
+  { month: "Feb 2024", biometric: 170000, demographic: 108000, enrolment: 89000 },
+  { month: "Mar 2024", biometric: 188000, demographic: 119000, enrolment: 98000 },
+  { month: "Apr 2024", biometric: 177000, demographic: 112000, enrolment: 93000 },
+  { month: "May 2024", biometric: 168000, demographic: 107000, enrolment: 88000 },
+  { month: "Jun 2024", biometric: 161000, demographic: 102000, enrolment: 84000 },
+  { month: "Jul 2024", biometric: 181000, demographic: 115000, enrolment: 95000 },
+  { month: "Aug 2024", biometric: 191000, demographic: 121000, enrolment: 100000 },
+  { month: "Sep 2024", biometric: 174000, demographic: 352000, enrolment: 91000 },
+  { month: "Oct 2024", biometric: 184000, demographic: 117000, enrolment: 96000 },
+  { month: "Nov 2024", biometric: 174000, demographic: 110000, enrolment: 91000 },
+  { month: "Dec 2024", biometric: 163000, demographic: 103000, enrolment: 85000 },
+  { month: "Jan 2025", biometric: 171000, demographic: 108000, enrolment: 89000 },
+  { month: "Feb 2025", biometric: 176000, demographic: 112000, enrolment: 92000 },
+  { month: "Mar 2025", biometric: 194000, demographic: 123000, enrolment: 101000 },
+  { month: "Apr 2025", biometric: 183000, demographic: 116000, enrolment: 96000 },
+  { month: "May 2025", biometric: 174000, demographic: 111000, enrolment: 91000 },
+  { month: "Jun 2025", biometric: 167000, demographic: 106000, enrolment: 87000 },
+  { month: "Jul 2025", biometric: 187000, demographic: 118000, enrolment: 98000 },
+  { month: "Aug 2025", biometric: 198000, demographic: 125000, enrolment: 103000 },
+  { month: "Sep 2025", biometric: 180000, demographic: 364000, enrolment: 94000 },
+  { month: "Oct 2025", biometric: 190000, demographic: 121000, enrolment: 100000 },
+  { month: "Nov 2025", biometric: 180000, demographic: 114000, enrolment: 94000 },
+  { month: "Dec 2025", biometric: 156000, demographic: 99000, enrolment: 82000 },
 ];
 
 // Day of Week Distribution
